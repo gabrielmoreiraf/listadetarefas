@@ -39,6 +39,7 @@ button {
   color: #ffff;
   padding: 5px 10px;
   border: none;
+  margin-right: 10px;
   border-radius: 3px;
   cursor: pointer;
   opacity:0.8;
@@ -47,6 +48,23 @@ button {
 
 button:hover {
   opacity: 1;
+}
+
+.todo-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #555;
+}
+
+.todo {
+  background-color: #ffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .complete{
@@ -69,4 +87,20 @@ input, select {
   border:  1px solid #ffffff;
   border-radius: 3px;
   width: 99%;
+}
+
+.filter, .search {
+ border-bottom: 1px solid #555;
+ margin-bottom: 20px;
+ padding-bottom: 20px;
+}
+
+.filter-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem ;
+}
+
+.filter-options div {
+  flex: 1 1 0;
 }
